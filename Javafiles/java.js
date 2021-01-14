@@ -5,12 +5,15 @@ var choicesEl = document.querySelector("#choices");
 var submitBtn = document.querySelector("#submit");
 var startBtn = document.querySelector("#start");
 var initialsEl = document.querySelector("#initials");
+var feedbackEl = document.querySelector("#feedback");
 
-
-// quiz variables
+// var items for the quiz
 var currentQuestionIndex = 0;
 var time = questions.length * 15;
 var timerId;
+
+// start quiz
+startBtn.onclick = startQuiz;
 
 function startQuiz() {
   // hide start screen until clicked to begin 
@@ -34,12 +37,11 @@ function getQuestion() {
   var currentQuestion = questions[currentQuestionIndex];
 
   // update title with current question
-  var titleEl = document.getElementById("questions");
+  var titleEl = document.getElementById("question-title");
   titleEl.textContent = currentQuestion.title;
 
   // clear out any old question choices
-  var choicesEl = document.getElementById("choices");
-  choicesEl.textContent= "";
+    choicesEl.innerHTML = "";
 
   // loop over choices
   currentQuestion.choices.forEach(function(choice, i) {
@@ -69,7 +71,7 @@ function questionClick() {
     }
     // display new time on page
     timerEl.textContent = time;
-    feedbackEl.textContent = "Wrong!";
+    feedbackEl.textContent = "Incorrect!";
     feedbackEl.style.color = "red";
     feedbackEl.style.fontSize = "400%";
   } else {
@@ -156,7 +158,6 @@ function checkForEnter(event) {
 // submit initials
 submitBtn.onclick = saveHighscore;
 
-// start quiz
-startBtn.onclick = startQuiz;
+
 
 initialsEl.onkeyup = checkForEnter;
