@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Browser tab name -->
+    <title>Code Quiz</title>
+    <!-- Reset css sheet-->
+    <link rel="stylesheet" href="reset.css" />
+    <!-- Regular Style Sheet -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Use semantic elements -->
+    <main>
+        <!-- As apart of the requirements, we need to view high scores. We will create a HTML sheet for those and direct the user there when they click. -->
+        <div class="scores"><a href="score.html">View Highscores</a></div>
+        <!-- this is the timer -->
+        <div class="timer">Time: <span id="time">0</span></div>
+
+        <!-- start adding in the quiz elements. First is the start screen -->
+        <div class="wrapper">
+            <div id="start-screen" class="start">
+                <h1> Coding Quiz </h1>
+                <p> Let's see what you know. Here are some code-related questions. Answer them all as quickly as you can
+                    and try to get the HIGH SCORE, but note that incorrect answers will result in a 10 second score/time
+                    penalty. Don't worry, you can try as many times as you want!</p>
+                <button id="startBtn">Start Quiz</button>
+            </div>
+
+        <!-- Lets start adding in the question block -->
+        <h2> Questions </h2>
+
+    </main>
+
+
+    <!-- Add in my script for basic Js -->
+    <script src="java.js"></script>
+</body>
+
+</html>
