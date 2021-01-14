@@ -3,8 +3,8 @@ Homework assignment from 04 web APIs
 Created by: Tori Sanford
 Date: 01/13/2021
 Contact: Tori.danielle.clark91@gmail.com
-Link to deployed project: INSERT HERE 
-Screen shot of completed assignment: ![Final Screen shot](./assets/screenshot.png) (copied from my previous read me. Input screenshot at end)
+Link to deployed project: https://tsanfordgatech.github.io/CodeQuiz/
+Screen shot of completed assignment: ![Final Screen shot](./images/codequiz.png) (copied from my previous read me. Input screenshot at end)
 
 About this Project: 
 This project is my CSS/bootstrap homework assignment. My objective is to create an online code quiz for a user using javascript. 
