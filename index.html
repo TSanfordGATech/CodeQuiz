@@ -31,11 +31,21 @@
             </div>
 
         <!-- Lets start adding in the question block -->
+        <div id="questions" class="hidden">
         <h2> Questions </h2>
-
+        <div id="choices" class="choices">
+        </div>
+        
+        <!-- Create the closing screen -->
+        <h2>You have completed the challenge!</h2>
+        <p>Lets see, your final score was: <span id="final-score"></span>.</p>
+        <p>Enter your initials to track your score: <input type="text" id="initials" max="3"/> </p>
+        <button id="submit">Submit</button>
+    </div>
     </main>
 
-
+    <!-- Add in my script for the questions  -->
+    <script src="questions.js"></script>
     <!-- Add in my script for basic Js -->
     <script src="java.js"></script>
 </body>

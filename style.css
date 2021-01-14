@@ -1,3 +1,4 @@
+/* Remember classes are . and IDs are #. Direct tie in does not need either*/
 .scores 
 
 
@@ -5,3 +6,25 @@
 
 #time
 
+.wrapper
+
+
+#start-screen
+
+.start
+
+#startBtn
+
+#questions
+
+.hidden
+
+#choices
+
+.choices
+
+#final-score
+
+#initials
+
+#submit
