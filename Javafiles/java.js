@@ -1,4 +1,4 @@
-// all of my Vars
+// all of my Vars to link up to CSS, html, and blocks
 var questionsEl = document.querySelector("#questions");
 var timerEl = document.querySelector("#time");
 var choicesEl = document.querySelector("#choices");
@@ -157,7 +157,4 @@ function checkForEnter(event) {
 
 // submit initials
 submitBtn.onclick = saveHighscore;
-
-
-
 initialsEl.onkeyup = checkForEnter;

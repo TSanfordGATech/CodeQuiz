@@ -4,13 +4,13 @@ Created by: Tori Sanford
 Date: 01/13/2021
 Contact: Tori.danielle.clark91@gmail.com
 Link to deployed project: https://tsanfordgatech.github.io/CodeQuiz/
-Screen shot of completed assignment: ![Final Screen shot](./images/codequiz.png) (copied from my previous read me. Input screenshot at end)
+Screen shot of completed assignment: ![Final Screen shot](./images/codequize.png) 
 
 About this Project: 
 This project is my CSS/bootstrap homework assignment. My objective is to create an online code quiz for a user using javascript. 
 
 What I learned from this project: 
-FILL IN AT END OF PROJECT 
+Overall this project really pushed me to use my resources. I learned how to CORRECTLY use my CSS in conjunction with my JS, how to split my work on different sheets and call into them, and how to properly format my folder structure. 
 
 This is the user story: 
 AS A coding boot camp student

@@ -1,5 +1,5 @@
 // start with creating my VAR of questions with their choices and correct answer
-var questions =[
+var questions = [
     {
         title: "What is JavaScript?",
         choices: ["HTML", "Another form of CSS", "An API", "An object based programming language"],
@@ -25,6 +25,6 @@ var questions =[
         choices: ["Alert", "Prompt", "Confirm", "All of the above"],
         answer: "All of the above"
     }
-    // add more before submitting. Something on this is not working as I cannot direct to the questions
+// Add more once you get this portion
 ];
 

@@ -1,73 +1,72 @@
+/* all styling */
 body {
     font-family: 'Times New Roman', Times, serif;
   }
+
+/* body/main of index */
 .wrapper {
-    margin: 100px auto 0 auto;
-    max-width: 600px;
-  }
+  margin: 100px auto 0 auto;
+  max-width: 600px;
+}
+
+.timer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.start {
+  text-align: center;
+}
+
+.choices button {
+  display: block;
+}
   
 .hide {
-    display: none;
-  }
+  display: none;
+}
   
-.start {
-    text-align: center;
-  }
-  
+.feedback {
+  font-style: bold;
+  font-size: 100%;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 2px solid;
+}
+
+/* CSS JS IDs */
 .scores {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-  }
-  
-.timer {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
-  
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
 a {
-    color: black;
-    text-decoration: none;
-    transition: color 0.1s;
-  }
+  color: black;
+  text-decoration: none;
+  transition: color 0.1s;
+}
   
 a:hover {
-    color: #70707a;
-  }
+  color: #70707a;
+}
   
 button {
-    display: inline-block;
-    margin: 5px;
-    cursor: pointer;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 100%;
-    background-color: aquamarine;
-    border-radius: 5px;
-    padding: 2px 10px;
-    border: 0;
-    transition: background-color 0.1s;
-  }
-   
-.choices button {
-    display: block;
-  }
-  
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 100%;
+  background-color: aquamarine;
+  border-radius: 5px;
+  padding: 2px 10px;
+  border: 0;
+  transition: background-color 0.5s;
+}
+
+/* moving to finals */
+
 input[type="text"] {
-    font-size: 100%;
-  }
-  
-ol {
-    padding-left: 0px;
-    max-height: 400px;
-    overflow: auto;
-  }
-  
-li {
-    padding: 5px;
-    list-style: decimal inside none;
-  }
-  
-li:nth-child(odd) {
-    background-color: #dfdae7;
-  }
+  font-size: 100%;
+}

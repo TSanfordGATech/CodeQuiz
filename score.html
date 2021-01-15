@@ -9,20 +9,30 @@
     <link rel="stylesheet" href="./CSSfiles/style.css" />
 
 </head>
+
 <body>
     <!-- Using Semantic tags in my HTML. Starting with my main container -->
     <main>
+        
         <div class="wrapper">
+
             <h1>Highscores</h1>
-            <!-- add in a list to retain the scores -->
+            <!-- add in a list to retain the scores in a list format -->
             <ol id="highscores"></ol>
-            <!-- Create the button to clear the results -->
-            <button id="button">Clear Scoreboard</button>
+
+            <!-- Create the button to go back the html page so the user can return to previous page -->
+            <a href="index.html"><button>Start Over</button></a>
+
+            <!-- clear high score button to blank out previous. Confirm history is empty-->
+            <button id="clear">Clear Highscores</button>
+
         </div>
 
         <!-- Add in my script for the JS for the scoreboard -->
         <script src="./Javafiles/score.js"></script>
-    </main>
+
+    </main> 
     
 </body>
+
 </html>
